@@ -724,7 +724,7 @@ export default function GaelRojoLanding() {
               {[
                 {label:"GitHub",href:"https://github.com/gaelrojo"},
                 {label:"LinkedIn",href:"https://www.linkedin.com/in/gael-rojo-fuentes-39a4832b7/"},
-                {label:"Instagram",href:"https://instagram.com/404_gael"},
+                
               ].map(({label,href})=>(
                 <a key={label} href={href} target="_blank" rel="noopener noreferrer" className="soc-btn" style={{
                   fontFamily:"'JetBrains Mono',monospace",fontSize:11,
