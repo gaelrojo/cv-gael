@@ -337,6 +337,14 @@ export default function GaelRojoLanding() {
                   border:`1.5px solid ${C.borderMid}`,
                   letterSpacing:"0.04em", transition:"all 0.2s",
                 }}>Ver proyectos</a>
+                <a href="/CV_Gael_Rojo.pdf" download style={{
+                  fontFamily:"'JetBrains Mono',monospace", fontSize:12,
+                  padding:"13px 28px", background:"transparent",
+                  color: dark ? "#4A7FA7" : "#4A7FA7", borderRadius:8,
+                  border:`1.5px solid ${dark ? "#4A7FA7" : "#4A7FA7"}`,
+                  letterSpacing:"0.04em", transition:"all 0.2s",
+                  display:"inline-flex", alignItems:"center", gap:8,
+                }}>↓ Descargar CV</a>
               </div>
 
               {/* STATS */}
@@ -727,14 +735,7 @@ export default function GaelRojoLanding() {
               ))}
             </div>
 
-            <a href="/CV_Gael_Rojo.pdf" download className="dl-btn" style={{
-              display:"inline-flex",alignItems:"center",gap:10,
-              fontFamily:"'Syne',sans-serif",fontWeight:700,fontSize:15,
-              padding:"18px 40px",background:"#0A1931",color:"#F6FAFD",
-              borderRadius:12,letterSpacing:"-0.01em",marginBottom:48,
-            }}>
-              <span style={{fontSize:18}}>↓</span> Descargar CV en PDF
-            </a>
+      
 
             <p style={{
               fontFamily:"'JetBrains Mono',monospace", fontSize:14,
